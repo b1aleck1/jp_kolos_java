@@ -1,5 +1,20 @@
-public class RectangleGame {
+package kolokwium;
+
+import javax.swing.*;
+
+/*
+
+Zasada działania: gdy któryś z prostokątów znajdzie się w punkcie
+wskazanym przez nas za pomocą slider'ów (x oraz y), to po naciśnięciu
+przycisku "poluj" - zniknie.
+
+*/
+
+public class RectangleGame extends JFrame{
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        SwingUtilities.invokeLater(RectangleGameFrame::new);
     }
 }
+
+
+
